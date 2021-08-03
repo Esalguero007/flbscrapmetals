@@ -76,16 +76,87 @@ nav.scrolled {
 
 .hero {
   min-height: 100vh;
-  background: url("/images/copper.jpeg");
-  background: linear-gradient(
+  position: relative;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.9) 10%,
+    transparent 30%,
+    rgba(0, 0, 0, 0.6) 60%
+  );
+}
+
+.hero .backgrounds-fade {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden !important;
+}
+
+.hero .backgrounds-fade .bg {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.hero .backgrounds-fade img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero .slick-list {
+  height: 100%;
+}
+
+.hero .slick-track {
+  height: 100%;
+}
+/* .hero .slick-track {
+  
+} */
+
+/* .hero .bg1 {
+  background-image: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.9) 10%,
       transparent 30%,
       rgba(0, 0, 0, 0.6) 60%
     ),
-    url("/images/copper.jpeg");
-  background-size: cover;
+    url("./images/cover-hero1.jpeg");
 }
+
+.hero .bg2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.9) 10%,
+      transparent 30%,
+      rgba(0, 0, 0, 0.6) 60%
+    ),
+    url("./images/cover-hero2.jpeg");
+}
+
+.hero .bg3 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.9) 10%,
+      transparent 30%,
+      rgba(0, 0, 0, 0.6) 60%
+    ),
+    url("./images/cover-hero3.jpg");
+}
+
+.hero .bg4 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.9) 10%,
+      transparent 30%,
+      rgba(0, 0, 0, 0.6) 60%
+    ),
+    url("/images/cover-hero4.jpg");
+} */
 
 .hero .content {
   text-align: center;
