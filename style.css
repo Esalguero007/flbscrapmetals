@@ -43,6 +43,8 @@ img {
   max-width: 100%;
 }
 
+/* NAV */
+
 nav {
   transition: background-color 500ms, box-shadow 500ms;
 }
@@ -73,6 +75,8 @@ nav.scrolled {
   margin-right: -12px;
   padding: 12px;
 }
+
+/* HOME */
 
 .hero {
   min-height: 100vh;
@@ -114,49 +118,6 @@ nav.scrolled {
 .hero .slick-track {
   height: 100%;
 }
-/* .hero .slick-track {
-  
-} */
-
-/* .hero .bg1 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.9) 10%,
-      transparent 30%,
-      rgba(0, 0, 0, 0.6) 60%
-    ),
-    url("./images/cover-hero1.jpeg");
-}
-
-.hero .bg2 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.9) 10%,
-      transparent 30%,
-      rgba(0, 0, 0, 0.6) 60%
-    ),
-    url("./images/cover-hero2.jpeg");
-}
-
-.hero .bg3 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.9) 10%,
-      transparent 30%,
-      rgba(0, 0, 0, 0.6) 60%
-    ),
-    url("./images/cover-hero3.jpg");
-}
-
-.hero .bg4 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.9) 10%,
-      transparent 30%,
-      rgba(0, 0, 0, 0.6) 60%
-    ),
-    url("/images/cover-hero4.jpg");
-} */
 
 .hero .content {
   text-align: center;
@@ -194,6 +155,8 @@ section:not(.hero) {
   padding-top: 42px;
   padding-bottom: 42px;
 }
+
+/* SERVICES */
 #services {
   text-align: center;
 }
@@ -230,6 +193,7 @@ section:not(.hero) {
   margin-bottom: 12px;
 }
 
+/* REVIEWS */
 #reviews {
   background-color: var(--secondary-color);
   text-align: center;
@@ -287,6 +251,7 @@ section:not(.hero) {
   color: #f7f7f7;
 }
 
+/* CONTACT */
 #contact .title,
 #contact .subtitle {
   text-align: center;
@@ -304,6 +269,7 @@ section:not(.hero) {
   border-radius: 0 !important;
 }
 
+/* ABOUT */
 .about-content {
   gap: 60px;
 }
